@@ -370,7 +370,7 @@
 .run-extra-text{
     width: 445px;
     height: 290px;
-    border: 1px solid darkred;
+    border: 1px;
     margin: 40px 165px 41px 54px;
     padding: 0;
 }
@@ -441,31 +441,31 @@
 
 /* End Run Extra */
 
-/* team-container */
+/*Start team-container */
 .team-container{
-    max-width: 1060px;
-    height: 775px;
-    border: 1px solid mediumaquamarine;
+    width: 1060px;
+    height: 782px;
+    border: 1px;
     margin: 88px auto;
-    padding: 0;
+    padding: 0px;
 }
 .team-container-text{
-    max-width: 671px;
+    width: 671px;
     height: 120px;
-    border: 1px solid violet;
-    padding: 0;
-    margin: 0 auto;
+    border: 1px;
+    padding: 0px;
+    margin: 0px auto 56px;
 }
 .team-container-text h3{
     font-size: 3rem;
     font-weight: 800;
     line-height: 120%;
     letter-spacing: 0%;
+    font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
-    width: 364px;
-    height: 58px;
-    /* text-align: center; */
-    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto 14px;
 }
 
 .team-container-text p{
@@ -474,16 +474,57 @@
     line-height: 24px;
     letter-spacing: 0.3px;
     color: rgba(255, 255, 255, 0.5);
-    width: 671px;
-    height: 48px;
+    font-family: "Inter", sans-serif;
     text-align: center;
-    margin: 14px auto;
+    margin: 14px auto 0px;
+    padding: 0px;
 }
 .team-container-img{
-    max-width: 1060px;
-    height: 605px;
-    border: 1px solid green;
+    width: 1020px;
+    height: 564px;
+    border: 1px;
     border-radius: 18px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.1);
+    margin: 56px auto 0px;
+    
+}
+.row-01{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.trainer img{
+    width: 326.67px;
+    height: 272px;
+    border: 1px;
+    border-radius: 18px;
+    padding: 0px;
+    background:  rgba(0, 0, 0, 0.2);
+    filter: brightness(80%);
+}
+.trainer{
+    position: relative;
+}
+.trainer-name{
+    position: absolute;
+    top: 77%;
+    left: 7%;
+}
+.trainer-name h5{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.trainer-name p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+
 }
