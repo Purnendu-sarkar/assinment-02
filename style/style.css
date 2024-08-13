@@ -18,7 +18,7 @@
 /* Header */
 .header{
     
-    max-width: 1440px;
+    width: 1440px;
     height: 715px;
     border: 2px solid rgba(17, 17, 17, 1);
     margin: 0 auto;
@@ -259,7 +259,8 @@
 /* Start Change Your Habits */
 .main-section{
     width: 1440px;
-    height: 4650px;
+    /* height: 4650px; */
+    height: 1900px;
     border: 2px solid  rgba(0, 0, 0, 0.992);
     padding: 0;
     margin: 0 auto;
@@ -358,7 +359,7 @@
 .run-extra{
     max-width: 1060px;
     height: 371px;
-    border: 1px solid rgb(255, 254, 254);
+    border: 1px  rgb(34, 34, 34);
     border-radius: 18px;
     margin: 100px auto;
     background-color: rgb(34, 34, 34);
@@ -414,7 +415,7 @@
 .run-extra-img{
     width: 366px;
     height: 312px;
-    border: 1px solid snow;
+    border: 1px  rgb(34, 34, 34);
     padding: 0px;
     border-radius: 18px;
     margin: 30px 32px 30px 35px;
@@ -527,4 +528,182 @@
     line-height: 24px;
     letter-spacing: 0.3px;
 
+}
+/*End team-container */
+
+
+/* Start footer */
+.footer{
+    width: 1440px;
+    height: 489px;
+    border: 1px solid rgba(0, 0, 0, 0.92);
+    padding: 0px;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.92);
+    /* background-color: black; */
+    
+}
+.footer-continer{
+    width: 1059px;
+    height: 249px;
+    padding: 0px;
+    border: 1px;
+    margin: 66px auto 79px;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.footer-title{
+    width: 443px;
+    height: 176px;
+    padding: 0px;
+    border: 1px;
+    /* margin: 0px 90px 73px 0px; */
+    margin: 0px;
+    
+}
+
+.get-started-01{
+    width: 181px;
+    height: 249px;
+    padding: 0px;
+    border: 1px;
+    /* margin: 0px 120px 0px 90px; */
+}
+
+.get-started-02{
+    width: 181px;
+    height: 249px;
+    padding: 0px;
+    border: 1px;
+    /* margin: 0px 0px 0px 120px; */
+    margin: 0px;
+}
+
+.footer-title h1{
+    font-size: 4.375rem;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color: rgb(230, 83, 60);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px 187px 20px 0px;
+}
+.footer-title p{
+    font-size: 0.875rem;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 20px auto 0px;
+}
+.get-started-01 h3{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px auto 39px;
+}
+/* .get-started-01 p{
+    font-size: 1.4375rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: auto;
+    
+} */
+ .service{
+    font-size: 1.43rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 39px 99px 20px 0px;
+ }
+ .contact{
+    font-size: 1.43rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 20px 59px 20px 0px;
+ }
+ .program{
+    font-size: 1.43rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 20px auto 20px;
+ }
+ .about{
+    font-size: 1.43rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 20px 80px 20px 0px;
+ }
+ .app{
+    font-size: 1.43rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 20px auto 0px;
+ }
+ .get-started-02 h3{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px auto 39px;
+}
+.line{
+    width: 1059.5px;
+    height: 0;
+    padding: 0px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 79px auto 36px;
+}
+.copyright{
+    font-size: 1.25rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 36px auto 35px;
 }
