@@ -870,7 +870,7 @@ table, th, td {
     border-radius: 32px;
     margin-bottom: 0px;
     margin-left: 40%;
-    background-color: rgb(230, 83, 60);
+    background-color: rgba(60, 230, 80, 0.5);
     font-size: 1.125rem;
     font-weight: 600;
     line-height: 22px;
